@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+* {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.picturecenter img {
+  margin: 10px;
+  display: block;
+  height: 170px;
+  width: 170px;
+  border-radius: 100px;
+  padding: 2px;
+  border: 3px solid var(--purple);
+}
+
+.picturecenter span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--purple);
+}
+
+.links {
+  margin: 14px;
+}
+
+.links li {
+  border: 2px solid var(--purple);
+  padding: 5px 120px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.links a {
+  text-decoration: none;
+  color: var(--purple);
+  font-weight: 600;
+}
+
+.icons {
+  margin: 30px;
+}
+.icons img {
+  padding: 14px;
+}
